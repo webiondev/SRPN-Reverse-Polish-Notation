@@ -362,7 +362,14 @@ public class SRPN {
 
         return true;
     }
-
+    /**
+     * covert infix to postfix method
+     *
+     * @param command
+     * @param stackOverflow
+     * @return string 
+     *
+     */
     private String convertInfix(String command, boolean stackOverflow) {
 
         Stack<String> operators = new Stack();
